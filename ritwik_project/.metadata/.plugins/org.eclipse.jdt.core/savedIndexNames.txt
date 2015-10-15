@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+D:\Baikup data\Desktop\eclipse-jee-indigo-SR2-win32-x86_64\eclipse\ritwik_project\.metadata\.plugins\org.eclipse.jdt.core
+794385493.index

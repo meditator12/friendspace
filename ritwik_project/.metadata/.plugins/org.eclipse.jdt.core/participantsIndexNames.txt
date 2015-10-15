@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+C:\Users\user\Desktop\eclipse-jee-indigo-SR2-win32-x86_64\eclipse\ritwik_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2149792429.index
+\Devil666\src
+C:\Users\user\Desktop\eclipse-jee-indigo-SR2-win32-x86_64\eclipse\ritwik_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\766310118.index
+\Devil666\src
+C:\Users\user\Desktop\eclipse-jee-indigo-SR2-win32-x86_64\eclipse\ritwik_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4091622350.index
+\Devil666\src

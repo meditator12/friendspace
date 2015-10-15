@@ -1,0 +1,177 @@
+@CHARSET "ISO-8859-1";
+#center-header {
+background-color: blue;
+ height: 100%;
+ width:60%;
+ float:left;
+ text-align: center;
+}
+
+#main_page {
+width:100%;
+min-height: 600px;
+}
+
+#top {
+background-color: red; 
+height: 10%; 
+width:100%;
+}
+
+#first {
+background-color: black;
+font color="white";
+text-align: centre;
+height: 100%; 
+width:5%; 
+float:left;
+}
+
+#second {
+background-color: black;
+font color="white";
+text-align: centre;
+height: 100%; 
+width:15%; 
+float:left;
+}
+
+#last {
+background-color: red; 
+height: 60px; 
+width:20%; 
+float:left;
+text-align: left;
+}
+
+#centre {
+background-color: white; 
+
+min-height: 300px; 
+width: 100%; 
+float:left;
+}
+
+#centre-first {
+font-size:20px;
+text-align: center;
+padding-top: 50px;
+background-color: white; 
+min-height:300px;
+width:20%; 
+float:left;
+}
+
+.post {
+background-color: white;
+
+width: 20%;
+float: left;
+}
+
+#lastpart {
+background-color: red; 
+height: 60px; 
+width:5%;
+vertical-align:bottom; 
+float:left;
+text-align: left;
+}
+
+.pose {
+background-color: red;
+
+width: 80%;
+float: left;
+}
+
+.sub_pose {
+background-color: red;
+height: 20px;
+width: 627px;
+float: left;
+align: left;
+}
+
+.second_pose {
+background-color: white;
+
+width: 100%;
+float: left;
+}
+
+#centre-middle {
+
+background-image:url(http://worldcupzones.com/wp-content/uploads/2014/06/2014-fifa-world-cup-groups1.jpg);
+min-height:601px;
+width:60%; 
+float:left;
+}
+
+.interior-one {
+
+width: 95%;
+float: left;
+margin-top: 5px;
+margin-left: 20px;
+}
+
+.one_part {
+background-color: #888888 ;
+height: 100%;
+width: 90%;
+float: left;
+
+}
+
+.second_part {
+background-color: purple;
+height: 100%;
+width: 5%;
+float: left;
+}
+
+.third_part {
+background-color: purple;
+height: 100%;
+width: 5%;
+float: left;
+}
+
+
+#centre-last {
+background-color: white; 
+min-height:600px;
+width:20%; 
+float:left;
+
+}
+
+#wall-post {
+background-color: white; 
+ 
+width:100%; 
+float:left;
+
+}
+
+#wall-comments {
+padding-bottom:8px;
+width: 100%;
+float:left;
+}
+
+#end {
+text-align: center;
+background-color: blue;
+margin-top:10px; 
+height: 10%; 
+width: 100%; 
+float:left;
+}
+
+p#para {
+color: violet;
+font-size: 27px;
+font-family: "Times New Roman", Times, serif;
+}

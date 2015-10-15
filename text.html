@@ -1,0 +1,52 @@
+ <html>
+<body>
+
+<p id="demo">Click "ADD FRIENDS" button to add more freinds</p>
+
+<button onclick="myFunction()">ADD FRIENDS</button> <input type="hidden" id="totalCount" value="1">
+<div style= " width=300px ;float = left;" id= "main_div">
+	<div style= " width = 100%; height = 10%; float = left; " id= "child_div">
+		<input type="text" name="name"><input type="button" value="*" name= "close" onclick = "divRemove(this)">
+	</div>
+	
+
+</div>
+
+
+
+<script>
+function myFunction()
+{
+var dv=document.createElement("div");
+dv.setAttribute("style","width:100% ; float: left; ");
+var add= parseInt(document.getElementById("totalCount").value) + 1;
+document.getElementById("totalCount").value = add;
+var id_name = "div"+add;
+dv.setAttribute("id",id_name);
+var input=document.createElement("input");
+var input_id_name="text"+add;
+input.setAttribute("name",input_id_name);
+var btn=document.createElement("input");
+btn.setAttribute("type","button");
+btn.setAttribute("value","*");
+btn.setAttribute("onclick","divRemove(this)");
+var btn_id_name= "btn"+add;
+btn.setAttribute("name",btn_id_name);
+dv.appendChild(input);
+dv.appendChild(btn);
+var main=document.getElementById("main_div");
+main.appendChild(dv);
+
+}
+
+function divRemove(obj)
+{
+var parent_id= obj.parentNode.id;
+var parent=document.getElementById("main_div");
+var child=document.getElementById(parent_id);
+parent.removeChild(child);
+}
+</script>
+
+</body>
+</html>
